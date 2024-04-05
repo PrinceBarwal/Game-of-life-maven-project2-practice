@@ -39,7 +39,7 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.11</version>
-<!--                 <configuration>
+                <configuration>
                     <skip>false</skip>
                 </configuration>
                 <executions>
@@ -73,7 +73,7 @@
                             </includes>
                         </configuration>
                     </execution>
-                </executions> -->
+                </executions>
             </plugin>
             <!-- CODE COVERAGE -->
             <plugin>
